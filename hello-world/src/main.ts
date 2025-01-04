@@ -1,16 +1,5 @@
-let message;
+let age = Number(prompt("What is your age?", "Age"));
 
-if (login == 'Employee') {
-  message = 'Hello';
-} else if (login == 'Director') {
-  message = 'Greetings';
-} else if (login == '') {
-  message = 'No login';
-} else {
-  message = '';
+if (age >= 14 && age <= 90) {
+    alert("Age is in the range");
 }
-
-let message = (login == 'Employee') ? 'Hello' :
-	(login == 'Director') ? 'Greetings' :
-	(login == '') ? 'No login' :
-	'';
