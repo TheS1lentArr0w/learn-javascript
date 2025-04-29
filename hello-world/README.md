@@ -8,4 +8,4 @@ Then to start project, just do below (add `--host` to expose to network)
 `npm run dev`
 
 # Progress
-https://javascript.info/logical-operators
+https://javascript.info/nullish-coalescing-operator
